@@ -3,67 +3,41 @@
 
 @import "{{ site.theme }}";
 
-/* Fundo geral */
-body {
-  background-color: #0d1117;
-  color: #e6edf3;
-}
-
-/* Área de conteúdo: mais larga e fundo escuro */
+/* Layout mais largo */
 .main-content {
   max-width: 1100px;
-  background-color: #0d1117;
-  color: #e6edf3;
 }
 
-/* Títulos */
+/* Texto preto para garantir legibilidade em qualquer fundo */
+.main-content,
+.main-content p,
+.main-content li,
+.main-content td,
+.main-content th {
+  color: #1f2328;
+}
+
 .main-content h1,
 .main-content h2,
 .main-content h3,
-.main-content h4,
-.main-content h5,
-.main-content h6 {
-  color: #e6edf3;
+.main-content h4 {
+  color: #1f2328;
 }
 
-/* Links */
-.main-content a {
-  color: #58a6ff;
+/* Mermaid: janela larga com scroll horizontal se necessário */
+.mermaid {
+  width: 100%;
+  overflow-x: auto;
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background-color: #f6f8fa;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
 }
 
-/* Tabelas */
-.main-content table th,
-.main-content table td {
-  border-color: #30363d;
-  color: #e6edf3;
-}
-
-.main-content table tr {
-  background-color: #161b22;
-  border-color: #30363d;
-}
-
-.main-content table tr:nth-child(odd) {
-  background-color: #0d1117;
-}
-
-/* Citações */
-.main-content blockquote {
-  color: #8b949e;
-  border-left-color: #30363d;
-}
-
-/* Código inline e blocos */
-.main-content code {
-  background-color: #161b22;
-  color: #e6edf3;
-}
-
-.main-content pre {
-  background-color: #161b22;
-}
-
-/* Linha horizontal */
-.main-content hr {
-  border-color: #30363d;
+.mermaid svg {
+  width: 100% !important;
+  max-width: none !important;
+  height: auto !important;
+  min-height: 420px;
 }

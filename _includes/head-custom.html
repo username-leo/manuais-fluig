@@ -7,6 +7,10 @@
       div.textContent = el.textContent;
       el.parentNode.replaceWith(div);
     });
-    mermaid.initialize({ startOnLoad: true, theme: 'dark' });
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: 'default',
+      timeline: { useMaxWidth: false }
+    });
   });
 </script>
