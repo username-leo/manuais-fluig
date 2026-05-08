@@ -1,0 +1,11 @@
+title: Manuais Fluig
+description: Manuais de usuário e documentação de processos desenvolvidos na plataforma TOTVS Fluig.
+remote_theme: just-the-docs/just-the-docs
+
+color_scheme: light
+search_enabled: true
+
+nav_sort: order
+
+plugins:
+  - jekyll-remote-theme
