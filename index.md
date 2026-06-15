@@ -14,3 +14,4 @@ Documentação dos processos desenvolvidos na plataforma **TOTVS Fluig**.
 | Processo | Manual do Usuário | Marcos do Projeto |
 |---|---|---|
 | RNC — Registro de Não Conformidade | [Acessar manual](rnc/manual-usuario) | [Ver marcos](rnc/marcos-do-projeto) |
+| KANBAN de Movimentação | [Acessar manual](kanban/manual-usuario) | [Ver marcos](kanban/marcos-do-projeto) |
